@@ -1,1 +1,0 @@
-## AI Lecturer: Teksan Gharti
