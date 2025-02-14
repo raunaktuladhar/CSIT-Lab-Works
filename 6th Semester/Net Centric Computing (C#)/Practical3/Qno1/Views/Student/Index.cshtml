@@ -1,0 +1,33 @@
+﻿@model List<Qno1.Models.Student>
+<h2>Practical 3, Question 1</h2>
+<h3>Student Information</h3>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Department</th>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.Name</td>
+            <td>@student.Age</td>
+            <td>@student.Gender</td>
+            <td>@student.Department</td>
+        </tr>
+    }
+</table>
+
+<p>
+    <footer>
+        <strong>----------</strong><br />
+        Name: Raunak Tuladhar<br />
+        Class Roll: 21-00011-5 (20780614)<br />
+        TU Roll: 28569/078
+    </footer>
+</p>
