@@ -1,0 +1,7 @@
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\bin\Debug\Practical1.exe.config
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\bin\Debug\Practical1.exe
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\bin\Debug\Practical1.pdb
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\obj\Debug\Practical1.csproj.AssemblyReference.cache
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\obj\Debug\Practical1.csproj.CoreCompileInputs.cache
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\obj\Debug\Practical1.exe
+E:\CSIT notes\6th sem\Net Centric Computing\Code\Raunak Tuladhar(28569078)\Practical1\Practical1\obj\Debug\Practical1.pdb
