@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Qno3.Models.Officer>
+
+<h1>Officer Management</h1>
+
+<form asp-action="Create" method="post">
+    <input type="text" name="Name" placeholder="Name" required />
+    <select name="Gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <input type="text" name="Phone" placeholder="Phone" required />
+    <input type="text" name="Department" placeholder="Department" required />
+    <input type="text" name="Position" placeholder="Position" required />
+    <button type="submit">Add Officer</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Position</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var officer in Model)
+        {
+            <tr>
+                <td>@officer.Name</td>
+                <td>@officer.Gender</td>
+                <td>@officer.Phone</td>
+                <td>@officer.Department</td>
+                <td>@officer.Position</td>
+                <td>
+                    <button type="button"><a asp-action="Edit" asp-route-id="@officer.Id">Edit</a></button>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="Id" value="@officer.Id" />
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
