@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Display State Data";
+}
+
+<h2>Display State Data</h2>
+
+<p><strong>Session Value:</strong> @ViewBag.SessionValue</p>
+<p><strong>TempData Value:</strong> @ViewBag.TempDataValue</p>
+<p><strong>Cookie Value:</strong> @ViewBag.CookieValue</p>
+
+<a href="@Url.Action("Index", "State")">Set State Again</a>
+
+<p>
+    <footer>
+        <strong>----------</strong><br />
+        Name: Raunak Tuladhar<br />
+        Class Roll: 21-00011-5 (20780614)<br />
+        TU Roll: 28569/078
+    </footer>
+</p>

@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "State Management Example";
+}
+
+<h2>State Management Example</h2>
+
+<form method="post" asp-action="Index">
+    <div>
+        <label for="sessionValue">Enter Session Value:</label>
+        <input type="text" id="sessionValue" name="sessionValue" value="@ViewBag.SessionValue" />
+    </div>
+
+    <div>
+        <label for="tempDataValue">Enter TempData Value:</label>
+        <input type="text" id="tempDataValue" name="tempDataValue" value="@ViewBag.TempDataValue" />
+    </div>
+
+    <div>
+        <label for="cookieValue">Enter Cookie Value:</label>
+        <input type="text" id="cookieValue" name="cookieValue" value="@ViewBag.CookieValue" />
+    </div>
+
+    <button type="submit">Set State</button>
+</form>
+
+<hr />
+
+<!-- Displaying session, TempData, and cookies -->
+<h3>Session Value:</h3>
+<p>@ViewBag.SessionValue</p>
+
+<h3>TempData Value:</h3>
+<p>@ViewBag.TempDataValue</p>
+
+<h3>Cookie Value:</h3>
+<p>@ViewBag.CookieValue</p>
+
+<hr />
+
+<p>
+    <footer>
+        <strong>----------</strong><br />
+        Name: Raunak Tuladhar<br />
+        Class Roll: 21-00011-5 (20780614)<br />
+        TU Roll: 28569/078
+    </footer>
+</p>
