@@ -1,0 +1,19 @@
+﻿@model List<Qno2.Models.Student>
+<h2>Practical 3, Question 2</h2>
+<h3>Student Information</h3>
+
+<ul>
+    @foreach (var student in Model)
+    {
+        <li>@student.Name - @student.Department</li>
+    }
+</ul>
+
+<p>
+    <footer>
+        <strong>----------</strong><br />
+        Name: Raunak Tuladhar<br />
+        Class Roll: 21-00011-5 (20780614)<br />
+        TU Roll: 28569/078
+    </footer>
+</p>
