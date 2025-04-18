@@ -1,9 +1,9 @@
-## AI Lecturer: Teksan Gharti
+# AI Lecturer: Teksan Gharti
 
-## CN Lecturer: Hiranya Prasad Bastakoti
+# CN Lecturer: Hiranya Prasad Bastakoti
 
-## DBMS Lecturer: Hari Saran Manandhar
+# DBMS Lecturer: Hari Saran Manandhar
 
-## OS Lecturer: Sugesh Manandhar
+# OS Lecturer: Sugesh Manandhar
 
-## TOC Lecturer: Pradyumna Bhattarai
+# TOC Lecturer: Pradyumna Bhattarai
