@@ -42,7 +42,7 @@ This repository contains coding, documentations and projects, that I have done t
 
 ## Credits:
 
-### [Bimochan Poudel](https://github.com/csitlabs) 
+### [CSIT Labs](https://github.com/csitlabs) 
 ### [Bimochan Poudel](https://github.com/eb1mo)
 Bimochan Poudel is my collegue. He had contributed a lot in lab works. Please do check his github.
 
