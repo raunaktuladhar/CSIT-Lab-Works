@@ -44,7 +44,7 @@ This repository contains coding, documentations and projects, that I have done t
 
 ### [CSIT Labs](https://github.com/csitlabs) 
 ### [Bimochan Poudel](https://github.com/eb1mo)
-Bimochan Poudel is my collegue. He had contributed a lot in lab works. Please do check his github.
+Bimochan Poudel is my collegue. He had contributed a lot in lab works. Both of the above link is his github account so please do check out.
 
 ### [Suyash Shrestha](https://github.com/sthsuyash)
 Suyash Shrestha is my senior. His github account has also contributed to us so please do check out his github as well
