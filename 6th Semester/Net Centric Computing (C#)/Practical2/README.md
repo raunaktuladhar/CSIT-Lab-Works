@@ -19,13 +19,13 @@ given in textboxes.
 3. Write a console program to create a table tbl_registration that have fields (id int primary
 key, username, password, repassword, gender, course and country). After this perform the
 following operation
- Insert any 5 data into tbl_registration. All the required input should be taken from
+- Insert any 5 data into tbl_registration. All the required input should be taken from
 user
- Display all the record of database table
- Update the name and course of a person to data given by user according to id given
+- Display all the record of database table
+- Update the name and course of a person to data given by user according to id given
 by user
- Delete the record of person whose id is given by user
- Display all the record of person who are male and also from country Nepal
+- Delete the record of person whose id is given by user
+- Display all the record of person who are male and also from country Nepal
 4. For the table created in question no. 3, create a web form for registration which
 should contains username, password, repassword, gender (radio button), course
 (checkbox) and country (dropdown) and submit button. When submit is pressed
