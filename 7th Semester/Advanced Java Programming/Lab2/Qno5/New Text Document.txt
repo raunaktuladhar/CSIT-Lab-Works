@@ -1,0 +1,12 @@
+Explanation:
+RandomAccessFile("data.txt", "rw") opens the file for both reading and writing.
+
+writeUTF("Hello World") writes the string in a format that includes a length prefix.
+
+seek(0) moves the file pointer back to the start.
+
+readUTF() reads the string written earlier.
+
+The program prints: File content: Hello World
+
+💡 Note: If you want to write plain text instead of UTF format (which adds length bytes), use writeBytes("Hello World") and then read using readLine(). Let me know if you want that version too.
